@@ -25,7 +25,7 @@ struct ContentView: View {
                     }
                 }.pickerStyle(SegmentedPickerStyle())
             }
-            Section(header: Text("Convert to")) {
+            Section(header: Text("And convert it to")) {
                 Picker("Unit", selection: $toUnit) {
                     ForEach(0 ..< units.count) {
                         Text("\(units[$0])")
