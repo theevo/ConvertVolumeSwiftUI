@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     @State private var fromUnit = 1
     @State private var toUnit = 0
-    @State private var fromQuantity = "1"
-    @State private var toQuantity = "1000"
+    @State private var fromQuantity = "2"
     
     let units = ["milliliters", "liters", "cups", "pints", "gallons"]
+    
+    var toQuantity: String {
+        return "2000"
+    }
     
     var body: some View {
         Form {
