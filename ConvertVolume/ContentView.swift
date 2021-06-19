@@ -15,7 +15,9 @@ struct ContentView: View {
     let units = ["milliliters", "liters", "cups", "pints", "gallons"]
     
     var toQuantity: String {
-        return "2000"
+        guard let vc = VolumeConverter(inputQuantity: fromQuantity, inUnit: units[fromUnit], outUnit: units[toUnit]) else { return "" }
+        
+        return vc.outputQuantity
     }
     
     var body: some View {

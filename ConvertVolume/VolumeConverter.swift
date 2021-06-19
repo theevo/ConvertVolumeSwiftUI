@@ -30,3 +30,12 @@ struct VolumeConverter {
         self.outputUnit = outputUnit
     }
 }
+
+extension VolumeConverter {
+    var outputQuantity: String {
+        let input = Measurement(value: inputQuantity, unit: inputUnit)
+        let converted = input.converted(to: outputUnit)
+        
+        return "\(converted.value)"
+    }
+}
