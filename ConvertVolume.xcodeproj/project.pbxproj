@@ -11,6 +11,7 @@
 		ACC62B11267D7CEE000551EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC62B10267D7CEE000551EC /* ContentView.swift */; };
 		ACC62B13267D7CEF000551EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC62B12267D7CEF000551EC /* Assets.xcassets */; };
 		ACC62B16267D7CEF000551EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC62B15267D7CEF000551EC /* Preview Assets.xcassets */; };
+		ACC62B1E267D83D8000551EC /* VolumeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC62B1D267D83D8000551EC /* VolumeConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		ACC62B12267D7CEF000551EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC62B15267D7CEF000551EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACC62B17267D7CEF000551EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC62B1D267D83D8000551EC /* VolumeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				ACC62B0E267D7CEE000551EC /* ConvertVolumeApp.swift */,
 				ACC62B10267D7CEE000551EC /* ContentView.swift */,
+				ACC62B1D267D83D8000551EC /* VolumeConverter.swift */,
 				ACC62B12267D7CEF000551EC /* Assets.xcassets */,
 				ACC62B17267D7CEF000551EC /* Info.plist */,
 				ACC62B14267D7CEF000551EC /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC62B11267D7CEE000551EC /* ContentView.swift in Sources */,
+				ACC62B1E267D83D8000551EC /* VolumeConverter.swift in Sources */,
 				ACC62B0F267D7CEE000551EC /* ConvertVolumeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
